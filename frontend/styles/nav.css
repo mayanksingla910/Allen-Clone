@@ -1,0 +1,58 @@
+.nav-link{
+    text-decoration: none;
+    color: #1e1e22;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.logo {
+    padding-top: 7px;
+    width: 5.7rem
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+  height: 70px;
+}
+
+.nav-routes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  height: 2.7rem;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 2.7rem;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    height: 2.7rem;
+}
+
+.phone {
+    width: 2.3rem;
+    height: 2.3rem;
+    color: rgba(33, 150, 243, .5);
+}
+
+.login {
+    color: #1e1e22;
+    padding: 0.6rem .85rem;
+    border: rgba(33, 150, 243, .5) .1rem solid; 
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: .75rem;
+    font-weight: 700;
+}

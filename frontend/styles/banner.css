@@ -1,0 +1,25 @@
+.banner{
+    background-color: #019370;
+    height: 70px;
+    font-size: 0.875rem;
+    padding: 10px 20px;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 550;
+}
+
+.mega-phone{
+    height: 55px;
+    width: 55px;
+}
