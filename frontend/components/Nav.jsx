@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from '../src/assets/logo.svg';
-import Phone from '../src/assets/circle-phone.svg';
+import Phone from '../src/assets/circle-phone.png';
 import "../styles/nav.css"; 
 
 export default function Nav() {

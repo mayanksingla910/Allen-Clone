@@ -1,25 +1,73 @@
-.banner{
-    background-color: #019370;
-    height: 70px;
-    font-size: 0.875rem;
-    padding: 10px 20px;
+.banner {
+  position: relative;
+  background-color: #019370;
+  height: 2.5rem;
+  font-size: 0.875rem;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  z-index: 1;
 }
+
+.banner::before,
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6) 1px,
+      transparent 2px,
+      transparent 30px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6) 1px,
+      transparent 2px,
+      transparent 20px
+    );
+  background-size: 30px 20px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.banner::before {
+  left: 0;
+  mask-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.25));
+  -webkit-mask-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.25));
+}
+
+.banner::after {
+  right: 0;
+  mask-image: linear-gradient(to left, rgba(255,255,255,0.5), rgba(255,255,255,0.25));
+  -webkit-mask-image: linear-gradient(to left, rgba(255,255,255,0.5), rgba(255,255,255,0.25));
+}
+
 
 .banner-content {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     height: 100%;
 }
 
 .text{
     display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
     font-weight: 550;
 }
 
 .mega-phone{
-    height: 55px;
-    width: 55px;
+    height: 35px;
+    width: 35px;
 }

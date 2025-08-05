@@ -42,15 +42,14 @@
 }
 
 .phone {
-    width: 2.3rem;
-    height: 2.3rem;
-    color: rgba(33, 150, 243, .5);
+    width: 2rem;
+    height: 2rem;
 }
 
 .login {
     color: #1e1e22;
     padding: 0.6rem .85rem;
-    border: rgba(33, 150, 243, .5) .1rem solid; 
+    border: rgba(33, 150, 243, 0.25) .1rem solid; 
     border-radius: 50px;
     text-decoration: none;
     font-size: .75rem;
