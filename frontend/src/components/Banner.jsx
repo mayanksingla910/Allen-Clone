@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import MegaPhone from '../src/assets/mega-phone.png';
-import "../styles/banner.css";
+import MegaPhone from '../assets/mega-phone.png';
+import "../../styles/banner.css";
 
 export default function Banner() {
   return (

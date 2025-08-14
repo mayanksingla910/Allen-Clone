@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Nav from '../components/Nav';
-import Banner from '../components/Banner';
+import Nav from './components/Nav';
+import Banner from './components/Banner';
+import Home from './pages/home';
 import '../styles/global.css';
 
 function App() {
@@ -22,9 +23,6 @@ function App() {
   );
 }
 
-function Home() {
-  return <h2>Welcome to the Home Page</h2>;
-}
 function Courser() {
   return <h2>Courser Page</h2>;
 }

@@ -1,3 +1,4 @@
+
 .nav-link{
     text-decoration: none;
     color: #1e1e22;
@@ -11,10 +12,15 @@
 }
 
 .nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 20px;
+  padding: 0 20px;
   height: 70px;
 }
 
@@ -49,7 +55,7 @@
 .login {
     color: #1e1e22;
     padding: 0.6rem .85rem;
-    border: rgba(33, 150, 243, 0.25) .1rem solid; 
+    border: rgb(15, 140, 241) .1rem solid; 
     border-radius: 50px;
     text-decoration: none;
     font-size: .75rem;
