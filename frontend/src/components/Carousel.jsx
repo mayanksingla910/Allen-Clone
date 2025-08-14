@@ -12,6 +12,7 @@ const Carousel = ({ images }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    arrows: false,
   };
 
   return (
@@ -21,7 +22,7 @@ const Carousel = ({ images }) => {
           <img
             src={image}
             alt={`slide-${index}`}
-            style={{ width: "100%", height: "auto" }}
+            style={{ width: "100%", height: "auto", borderRadius: "30px" }}
           />
         </div>
       ))}
