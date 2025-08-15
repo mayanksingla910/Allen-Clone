@@ -44,14 +44,14 @@
 
 .banner::before {
   left: 0;
-  mask-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.25));
-  -webkit-mask-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.25));
+  mask-image: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.15));
+  -webkit-mask-image: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.15));
 }
 
 .banner::after {
   right: 0;
-  mask-image: linear-gradient(to left, rgba(255,255,255,0.5), rgba(255,255,255,0.25));
-  -webkit-mask-image: linear-gradient(to left, rgba(255,255,255,0.5), rgba(255,255,255,0.25));
+  mask-image: linear-gradient(to left, rgba(255,255,255,0.3), rgba(255,255,255,0.15));
+  -webkit-mask-image: linear-gradient(to left, rgba(255,255,255,0.3), rgba(255,255,255,0.15));
 }
 
 

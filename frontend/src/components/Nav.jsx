@@ -8,7 +8,7 @@ export default function Nav() {
     <nav className={"nav-bar"}>
       <div className={"nav-routes"}>
         <div>
-          <Link to="/" className="nav-link logo">
+          <Link to="/" className=" logo">
             <img src={Logo} alt="logo" className="logo" />
           </Link>
         </div>

@@ -1,6 +1,7 @@
 .home-container{
     margin: calc(70px + 2.5rem) 15rem 0 15rem;
     padding: 4rem 0;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,11 +17,38 @@
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
-    height: 240px;
+    height: 230px;
     width: 310px;
     background-color: #EDF2FA;
     justify-content: space-between;
     align-items: start;
     margin-top: 1.5rem;
     border-radius: 15px;
+}
+
+.button-container{
+    background-color: #F7F9FF;
+    padding: 1rem 15rem;
+}
+
+.button-group{
+    display: flex;
+    gap: 1rem;
+}
+
+.custom-btn{
+    background-color: white;
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.custom-btn.active{
+    background-color: #D5E8FF;
+    font-weight: 600;
+    border-color: #4C93E7;
 }
