@@ -66,8 +66,16 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
-          
+        <div style={{backgroundColor: "#EDF2FA"}}>
+          <div style={{padding: "20px 15rem"}}>
+            <div style={{backgroundColor: "#E6E6E6", height: "1px", width: "100%"}} />
+            {selectedButton === "NEET" && (
+              <Neet />)}
+            {selectedButton === "JEE" && (
+              <Jee />)}
+            {selectedButton === "Class 6-10" && (
+              <Classes />)}
+          </div>
         </div>
 
       </div>
