@@ -11,11 +11,11 @@ function App() {
       <Banner />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Courser" element={<Courser />} />
-        <Route path="/TestSeries" element={<TestSeries />} />
+        <Route path="/Courses" element={<Courses />} />
+        <Route path="/Test-Series" element={<TestSeries />} />
         <Route path="/Classroom" element={<Classroom />} />
         <Route path="/Results" element={<Results />} />
-        <Route path="/StudyMaterials" element={<StudyMaterials />} />
+        <Route path="/Study-Materials" element={<StudyMaterials />} />
         <Route path="/Scholarships" element={<Scholarships />} />
         <Route path="/AllenE-Store" element={<AllenEStore />} />
       </Routes>
@@ -23,26 +23,26 @@ function App() {
   );
 }
 
-function Courser() {
-  return <h2>Courser Page</h2>;
+function Courses() {
+  return <h2 style={{    margin: "calc(70px + 2.5rem) 15rem 0 15rem"}}>Courses Page</h2>;
 }
 function TestSeries() {
-  return <h2>Test Series Page</h2>;
+  return <h2 style={{    margin: "calc(70px + 2.5rem) 15rem 0 15rem"}}>Test Series Page</h2>;
 }
 function Classroom() {
-  return <h2>Classroom Page</h2>;
+  return <h2 style={{    margin: "calc(70px + 2.5rem) 15rem 0 15rem"}}>Classroom Page</h2>;
 }
 function Results() {
-  return <h2>Results Page</h2>;
+  return <h2 style={{    margin: "calc(70px + 2.5rem) 15rem 0 15rem"}}>Results Page</h2>;
 }
 function StudyMaterials() {
-  return <h2>Study Materials Page</h2>;
+  return <h2 style={{    margin: "calc(70px + 2.5rem) 15rem 0 15rem"}}>Study Materials Page</h2>;
 }
 function Scholarships() {
-  return <h2>Scholarships Page</h2>;
+  return <h2 style={{    margin: "calc(70px + 2.5rem) 15rem 0 15rem"}}>Scholarships Page</h2>;
 }
 function AllenEStore() {
-  return <h2>Allen E-Store Page</h2>;
+  return <h2 style={{    margin: "calc(70px + 2.5rem) 15rem 0 15rem"}}>Allen E-Store Page</h2>;
 }
 
 export default App;

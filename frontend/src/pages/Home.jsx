@@ -1,4 +1,7 @@
 import { useState } from "react";
+import Neet from "../components/Neet";
+import Jee from "../components/Jee";
+import Classes from "../components/Classes";
 import Carousel from "../components/Carousel";
 import slide2 from   "../assets/1.avif";
 import slide1 from   "../assets/2.png";
