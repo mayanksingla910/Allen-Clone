@@ -4,7 +4,7 @@
     text-decoration: none;
     color: #1e1e22;
     font-size: .875rem;
-    font-weight: 600;
+    font-weight: 500;
     transition: all 0.2s ease-in;
   }
   .nav-link::after {

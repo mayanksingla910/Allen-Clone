@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import MegaPhone from '../assets/mega-phone.png';
 import "../../styles/banner.css";
 
