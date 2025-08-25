@@ -1,16 +1,39 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faVideo, faCheck} from '@fortawesome/free-solid-svg-icons';
+import { faVideo, faCheck, faImages} from '@fortawesome/free-solid-svg-icons';
 
 export default function Neet() {
   return (
-    <div className="course-container">
-      <div style={{backgroundColor: "#1C1D1D", borderRadius: "15px", height:"1.5rem", width: "fit-content", display: "flex",justifyContent: "center", alignItems: "center", padding: "0px 10px"}}>
-        <FontAwesomeIcon icon={faVideo} style={{color: "white", marginRight: "6px", fontSize: "14px"}}/>
-        <p style={{color: "#FFFFFF", fontWeight: "600", fontSize: "12px"}}>LIVE</p>
+    <div className="view-courses">
+      <div className="course-container">
+        <div style={{backgroundColor: "#1C1D1D", borderRadius: "15px", height:"1.5rem", width: "fit-content", display: "flex",justifyContent: "center", alignItems: "center", padding: "0px 10px"}}>
+          <FontAwesomeIcon icon={faVideo} style={{color: "white", marginRight: "6px", fontSize: "14px"}}/>
+          <p style={{color: "#FFFFFF", fontWeight: "600", fontSize: "12px"}}>LIVE</p>
+        </div>
+        <p style={{fontSize: "1rem", marginTop: ".75rem", color: "#1E1E22", fontWeight: "600"}}>Achiever Online Course</p>
+        <p style={{fontSize: "14px", marginTop: ".25rem", color: "#494A4A"}}>Focuses on advanced concepts</p>
+        <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>Interactive LIVE classes with personalised attention</p></p>
+        <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>200+ hrs of LIVE revision & doubt classes</p></p>
+        <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>ALLEN App Advantage + Tests with national benchmarking</p></p>
+        <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "1.5rem", paddingRight: "12px"}}>
+          <p style={{fontSize: "1rem", color: "#1E1E22", fontWeight: "700", display: "flex", alignItems: "center"}}>₹68,500<p style={{fontSize: "12px", color:"#757575", marginTop: "2px", fontWeight: "600"}}> + Taxes Applicable</p></p>
+          <p style={{fontSize: "14px", color: "#025FCA", fontWeight: "700"}}>Know more</p>
+        </div>
       </div>
-      <p>Achiever Online Course</p>
-      <p>Focuses on advanced concepts</p>
-      <p><FontAwesomeIcon icon={faCheck} />Interactive Live classes with personalised attention</p>
+      <div className="course-container">
+        <div style={{backgroundColor: "#1C1D1D", borderRadius: "15px", height:"1.5rem", width: "fit-content", display: "flex",justifyContent: "center", alignItems: "center", padding: "0px 10px"}}>
+          <FontAwesomeIcon icon={faImages} style={{color: "white", marginRight: "6px", fontSize: "14px"}}/>
+          <p style={{color: "#FFFFFF", fontWeight: "600", fontSize: "12px"}}>RECORDED</p>
+        </div>
+        <p style={{fontSize: "1rem", marginTop: ".75rem", color: "#1E1E22", fontWeight: "600"}}>Leader Self-Study Plus</p>
+        <p style={{fontSize: "14px", marginTop: ".25rem", color: "#494A4A"}}>Video Lectures + Test Series</p>
+        <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>Latest recordings covering full syllabus</p></p>
+        <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>Digital Study material incl. books, RACEs & more</p></p>
+        <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>24 (part + full) syllabus tests</p></p>
+        <div style={{display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "2.5rem", paddingRight: "12px"}}>
+          <p style={{fontSize: "1rem", color: "#1E1E22", fontWeight: "700", display: "flex", alignItems: "center"}}>₹9,000<p style={{fontSize: "12px", color:"#757575", marginTop: "2px", fontWeight: "600"}}> + Taxes Applicable</p></p>
+          <p style={{fontSize: "14px", color: "#025FCA", fontWeight: "700"}}>Know more</p>
+        </div>
+      </div>
     </div>
   );
 }
