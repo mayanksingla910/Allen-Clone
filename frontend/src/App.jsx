@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Banner from './components/Banner';
 import Home from './pages/Home';
 import '../styles/global.css';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Scholarships" element={<Scholarships />} />
         <Route path="/Allen-E-Store" element={<AllenEStore />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

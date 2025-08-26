@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const Carousel = ({ images }) => {
+const Carousel = ({ images, width }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -22,7 +22,7 @@ const Carousel = ({ images }) => {
           <img
             src={image}
             alt={`slide-${index}`}
-            style={{ width: "100%", height: "auto", borderRadius: "30px" }}
+            style={{ width: width || "100%", height: "auto", borderRadius: "30px" }}
           />
         </div>
       ))}

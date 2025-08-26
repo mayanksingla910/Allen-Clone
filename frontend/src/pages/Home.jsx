@@ -8,6 +8,14 @@ import slide1 from   "../assets/2.png";
 import slide3 from   "../assets/3.png";
 import slide4 from   "../assets/4.avif";
 import slide5 from   "../assets/5.png";
+import slide6 from   "../assets/6.png";
+import slide7 from   "../assets/7.png";
+import slide8 from   "../assets/8.png";
+import slide9 from   "../assets/9.png";
+import slide10 from  "../assets/10.png";
+import slide11 from  "../assets/11.png";
+import slide12 from  "../assets/12.jpg";
+import slide13 from  "../assets/13.png";
 import "../../styles/home.css";
 
 const images = [
@@ -18,6 +26,17 @@ const images = [
   slide5
 ];
 
+const images2 = [
+  slide7,
+  slide8
+]
+
+const images3 = [
+  slide10,
+  slide11,
+  slide12,
+  slide13
+]
 
 export default function Home() {
   
@@ -79,6 +98,31 @@ export default function Home() {
             {selectedButton === "Class 6-10" && (
               <Classes />)}
           </div>
+
+          <div className="all-courses">
+            <button>View All Courses</button>
+          </div>
+
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <img style={{width: "67%", margin: "1.5rem 0"}} src={slide6} alt="guarantee" />
+          </div>
+
+          <div style={{display:"flex", flexDirection:"column", justifyContent:"center", padding: "3rem 15rem"}}>
+            <Carousel images={images2}/>
+          </div>
+
+          <div style={{display: "flex", justifyContent: "center"}}>
+            <img style={{width: "68%", margin: "1.5rem 0"}} src={slide9} alt="guarantee" />
+          </div>
+
+          <div style={{display: "flex", flexDirection:"column", justifyContent:"center", padding: "1.5rem 15rem"}}>
+            <p style={{fontSize: "24px", fontWeight: "700", padding: "0 25rem"}}>What's Trending</p>
+            
+            <div style={{display: "flex", flexDirection: "column", margin: "2rem 0 1.5rem 0 "}}>
+            <Carousel images={images3}/>
+            </div>
+          </div>
+
         </div>
 
       </div>
