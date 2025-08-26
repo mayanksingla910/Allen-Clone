@@ -1,0 +1,15 @@
+.section li{
+    list-style: none;
+    padding-top: 16px;
+    font-size: 14px;
+}
+.section li a{
+    text-decoration: none;
+}
+
+.section span{
+    font-size: 12px;
+    padding: 8px 0;
+    color: #1E1E22;
+    font-weight: 600;
+}
