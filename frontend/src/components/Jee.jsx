@@ -25,7 +25,7 @@ export default function Jee() {
           <p style={{color: "#FFFFFF", fontWeight: "600", fontSize: "12px"}}>LIVE</p>
         </div>
         <p style={{fontSize: "1rem", marginTop: ".75rem", color: "#1E1E22", fontWeight: "600"}}>JEE Leader Online Course</p>
-        <p style={{fontSize: "14px", marginTop: ".25rem", color: "#494A4A"}}>target 2026Video Lectures + Test Series</p>
+        <p style={{fontSize: "14px", marginTop: ".25rem", color: "#494A4A"}}>Target 2026</p>
         <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>Live classes from ALLEN Kota's top faculty</p></p>
         <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>Upto 35 online tests</p></p>
         <p style={{fontSize: "14px", marginTop: "1rem", color: "#494A4A", display: "flex", gap: "6px"}}><FontAwesomeIcon icon={faCheck} style={{fontSize: "11px", marginTop: "4px"}} /><p>24/7 doubt support, academic guidance & more</p></p>
