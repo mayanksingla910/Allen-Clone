@@ -1,8 +1,13 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../../styles/footer.css";
+import {faYoutube, faInstagram, faSquareFacebook, faXTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import image1 from  "../assets/img1.avif";
+
+
 export default function Footer() {
   return (
-    <div>
-        <div style={{display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: "55px", padding: "24px 14rem", backgroundColor: "#F7F9FF"}}>
+    <div style={{backgroundColor: "#F7F9FF", padding: "24px 14rem"}}>
+        <div style={{display: "grid", gridTemplateColumns: "repeat(6, 1fr)", gap: "55px"}}>
             <div className="section">
                 <span>About</span>
                 <ul >
@@ -24,7 +29,6 @@ export default function Footer() {
                     <li><a>Transfer policy</a></li>
                     <li><a>Terms & Conditions</a></li>
                     <li><a>Contact us</a></li>
-                    
                 </ul>
             </div>
             <div className="section">
@@ -33,7 +37,6 @@ export default function Footer() {
                     <li><a>NEET Coaching</a></li>
                     <li><a>JEE Coaching</a></li>
                     <li><a>6th to 10th</a></li>
-                    
                 </ul>
             </div>
             <div className="section">
@@ -57,7 +60,6 @@ export default function Footer() {
                     <li><a>Indore</a></li>
                     <li><a>Delhi</a></li>
                     <li><a>More centers</a></li>
-                    
                 </ul>
             </div>
             <div className="section">
@@ -73,10 +75,27 @@ export default function Footer() {
                     <li><a>NEET 2025 Answer Key</a></li>
                     <li><a>NEET College Predictor</a></li>
                     <li><a>NEET 2025 Counselling</a></li>
-                    
                 </ul>
             </div>
         </div>
+
+        <div style={{backgroundColor: "#E6E6E6", height: "1px", width: "100%", marginTop: "40px"}} />
+        <div style={{display:"flex", justifyContent:"space-between", paddingTop: "40px"}}>
+            <div >
+                <div style={{display:"flex", paddingBottom: "8px"}}>
+                    <FontAwesomeIcon icon={faYoutube} style={{fontSize: "16px", marginRight: "12px", cursor:"pointer"}}/>
+                    <FontAwesomeIcon icon={faInstagram} style={{fontSize: "16px", marginRight: "12px", cursor:"pointer"}}/>
+                    <FontAwesomeIcon icon={faSquareFacebook} style={{fontSize: "16px", marginRight: "12px", cursor:"pointer"}}/>
+                    <FontAwesomeIcon icon={faXTwitter} style={{fontSize: "16px", marginRight: "12px", cursor:"pointer"}}/>
+                    <FontAwesomeIcon icon={faLinkedin} style={{fontSize: "16px", marginRight: "12px", cursor:"pointer"}}/>
+                </div>
+                    <p style={{fontSize: "14px", color: "#494A4A"}}>ALLEN Career Institute Pvt. Ltd. © All Rights Reserved.</p>
+            </div>
+            <div>
+                <img src={image1} alt="footer-img" style={{height: "60px"}}/>
+            </div>
+        </div>
+
     </div>
   );
 }

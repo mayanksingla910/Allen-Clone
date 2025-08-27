@@ -103,22 +103,22 @@ export default function Home() {
             <button>View All Courses</button>
           </div>
 
-          <div style={{display: "flex", justifyContent: "center"}}>
+          <div style={{display: "flex", justifyContent: "center", cursor: "pointer"}}>
             <img style={{width: "67%", margin: "1.5rem 0"}} src={slide6} alt="guarantee" />
           </div>
 
-          <div style={{display:"flex", flexDirection:"column", justifyContent:"center", padding: "3rem 15rem"}}>
+          <div style={{display:"flex", flexDirection:"column", justifyContent:"center", padding: "3rem 15rem", cursor: "pointer"}}>
             <Carousel images={images2}/>
           </div>
 
-          <div style={{display: "flex", justifyContent: "center"}}>
+          <div style={{display: "flex", justifyContent: "center", cursor: "pointer"}}>
             <img style={{width: "68%", margin: "1.5rem 0"}} src={slide9} alt="guarantee" />
           </div>
 
           <div style={{display: "flex", flexDirection:"column", justifyContent:"center", padding: "1.5rem 15rem"}}>
             <p style={{fontSize: "24px", fontWeight: "700", padding: "0 25rem"}}>What's Trending</p>
             
-            <div style={{display: "flex", flexDirection: "column", margin: "2rem 0 1.5rem 0 "}}>
+            <div style={{display: "flex", flexDirection: "column", margin: "2rem 0 1.5rem 0 ", cursor: "pointer"}}>
             <Carousel images={images3}/>
             </div>
           </div>

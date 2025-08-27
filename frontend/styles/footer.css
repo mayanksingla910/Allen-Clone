@@ -5,6 +5,7 @@
 }
 .section li a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 .section span{
